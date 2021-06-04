@@ -1,11 +1,6 @@
 #include <algorithm>
 #include <iostream>
 
-const int N = 4, W = 100;
-int cost[N]={400, 150, 150, 120};
-int weight[N]={85, 30, 50, 20};
-int c[N + 1][W + 1]={};
-
 void fn_OLKnapsack(const int ci_IN, const int ci_TWei,
               int* ip_Cost, int* ip_Weight, int** ia_MCost);
 
